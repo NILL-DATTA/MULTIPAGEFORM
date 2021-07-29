@@ -1,0 +1,83 @@
+
+    .yu{
+        margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.055);
+        padding: 15px 18px;
+        width: 500px;
+        border-radius: 10px;
+        border: 2px solid black;
+     
+        
+    }
+         .yu  :hover{
+     color:orange;
+       }
+       .yu h1{
+           color: white;
+           font-size: 25px;
+       }
+
+    .ru{
+        display: block;
+        padding: 17px 25px;
+        margin: 12px auto;
+        border-radius: 3px;
+        width: 400px;
+    
+    
+        
+    }
+    .yu h2{
+        font-weight: normal;
+        color: white;
+        font-size: 14px;
+    }
+    .yu h3{
+        color: white;
+        font-size: 17px;
+        font-family: monospace;
+        }
+    .op {
+        font-size: 13px;
+    }
+
+    .bn{
+        padding: 15px 50px;
+        background-color: skyblue;
+        border-radius:5px;
+        border:Green;
+        margin:13px;
+    
+    }
+
+    .ip{
+        padding: 15px 50px;
+        background-color: skyblue;
+        border-radius:5px;
+        border:Green;
+        margin:13px;
+    }
+    .it{
+        padding: 15px 50px;
+        background-color: orange;
+        border-radius:5px;
+        border:Green;
+        margin:13px;
+    }
+
+    ::-webkit-input-placeholder{
+        color:black;
+        font-weight: bold;
+        
+    }
+
+    html,body{
+        background-image: url('../../image/x.jpg');
+    }
+   .ty{
+       padding:10px 20px;
+       color:orange;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-weight: bold;
+       
+   }
