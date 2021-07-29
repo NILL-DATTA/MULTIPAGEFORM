@@ -5,6 +5,9 @@ const initialState = {
     lastname:null,
     email:null,
     password:null,
+    city:null,
+    state:null,
+    pincode:null
   };
 
   const Slice =createSlice({
@@ -16,6 +19,9 @@ const initialState = {
               state.lastname=action.payload.lastname
               state.email=action.payload.email
               state.password=action.payload.password
+              state.city=action.payload.city
+              state.state=action.payload.state
+              state.pincode=action.payload.pincode
           }
       }
   });
